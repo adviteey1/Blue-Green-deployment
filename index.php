@@ -20,7 +20,7 @@ imagefilledrectangle($im, 0, 0, 199, 199, $blue);
 
 header('Content-Type: image/png');
 
-imagePNG($im './imagefilledrectangle.png');
+imagePNG($im);
 
 imagedestroy($im);
 
